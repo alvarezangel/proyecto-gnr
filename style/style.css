@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    width: 100vw;
+}
+
+header{
+    background: black;
+}
+
+h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700; 
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    padding: 16px;
+}
+
+nav ul{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif ;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-inline: 15px;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.portada{
+    width: 100vw;
+    height: 80vh;
+}
+
+hr{
+    padding: 3px;
+    background-color:yellow;
+    border-color: black;
+}
+
+p{
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
+}
+
+main {
+    background-color: black;
+    padding: 20px;
+}
+
+.cuerpo{
+    background-color: black;
+    
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio__titulo{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 10px 20px 20px;
+    color: white;
+}
+
+.video{
+    width: 70vw;
+    height: 60vh;
+    border: solid yellow 5px;
+}
+
+.imagen{
+    width: 70vw;
+    height: 60vh;
+    border: solid yellow 5px;
+}
+
+.inicio__vidim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer{
+    padding-top: 5px;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer div li{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer h3{
+    font-size: 1.5rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer ul {
+    text-align: center;
+}
+
+.suscripcion{
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+}
+
+.suscripcion__email{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+}
+
+.suscripcion__boton{
+    color:black;
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.biografia{
+    background-color:black;
+    padding: 5px;
+}
+
+.biografia__titulo{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 20px;
+    color: white;
+}
+
+.biografia__imagenbanda{
+    width: 40% ;
+    height: 40vh;
+    background-image: url("../img/banda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid yellow;
+    margin-left: 360px;
+}
+
+.biografia__imagenbanda2{
+    width: 40% ;
+    height: 40vh;
+    background-image: url("../img/banda2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid yellow;
+    margin-left: 360px;
+}
+
+.biografia__bandavivo{
+    width: 40% ;
+    height: 40vh;
+    background-image: url("../img/bandavivo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid yellow;
+    margin-left: 360px;
+}
+
+.contacto{
+    background-color: black;
+    padding: 20px;
+}
+
+.contacto__marco{
+    border: solid white 4px;
+    padding: 20px;
+}
+
+.contacto h2{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.contacto label{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+}
+
+.contacto input{
+    font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.contacto div{
+    text-align: center;
+    margin: 10px 0px 10px;
+}   
+
+@media (min-width:1200px) { 
+    
+.cuerpo{
+    display: grid;
+
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7,25vh);
+    grid-template-areas: 
+    "header header header"
+    "portada portada portada"
+    "portada portada portada"
+    "portada portada portada"
+    "inicio inicio inicio"
+    "inicio inicio inicio"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header;
+    width: 100vw;
+    
+}
+
+.portada{
+    grid-area: portada;
+    width: 100vw;
+}
+
+main{
+    grid-area: inicio;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    display: none;
+}
+
+.video{
+    width: 30vw;
+    height: 40vh;    
+}
+
+.imagen{
+    width: 30vw;
+    height: 40vh;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: inicio;
+}
+
+.inicio__vidim{
+    flex-direction: row;
+}
+
+footer {
+    background-color: black;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.inicio{
+    justify-content: star;
+    align-items: flex-start;
+
+}
+
+footer div li{
+    display: block;
+    text-align: start;
+}
+
+
+}
+
+
+
+
+
