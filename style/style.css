@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background: black;
+    background: rgb(0, 0, 0);
 }
 
 h1{
@@ -24,6 +24,22 @@ h1{
     text-align: center;
     color: white;
     padding: 16px;
+    animation-name: mostrar-titulo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes mostrar-titulo {
+
+    0%{opacity: 0;}
+    20%{opacity: 0.2;}
+    40%{opacity: 0.4;}
+    60%{opacity: 0.6;}
+    80%{opacity: 0.8;}
+    100%{opacity: 1;}
+    
+    
 }
 
 nav ul{
@@ -40,6 +56,13 @@ nav ul li{
     font-weight: 700;
     font-size: 2rem;
     margin-inline: 15px;
+    
+
+}
+
+nav ul li:hover{
+    scale: 1.3;
+    transition-duration: 2s;
 }
 
 :root{

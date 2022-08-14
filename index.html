@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;500;700&display=swap"
@@ -43,7 +44,12 @@
 
       <main>
         <div class="contenedor">
-          <section class="inicio">
+          <section
+            class="inicio"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in"
+          >
             <h2 class="inicio__titulo">Bienvenidos a la Jungla...</h2>
             <p>
               En este sitio encontrarán toda la información referida a la banda,
@@ -59,12 +65,18 @@
               src="./video/guns-n-roses-dont-cry_104131.mp4"
               controls
               class="video"
+              data-aos="flip-left"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in"
             ></video>
 
             <img
               src="./img/slash-axel.jpg"
               alt="slash y axel en concierto"
               class="imagen"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in"
             />
           </div>
         </div>
@@ -129,5 +141,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
